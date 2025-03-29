@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ТДС | Запоріжжя</title>
+    <title>ТДС | Хмельницький</title>
     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <style>
         @font-face {
     font-family: 'Intro';
@@ -65,6 +67,9 @@
             animation: fadeInUp 0.5s ease-in-out forwards;
             opacity: 0;
         }
+        .link i {
+            font-size: 20px;
+        }
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -80,6 +85,38 @@
             border-color: #facc15;
             color: #facc15;
         }
+        /* Заголовок перед списком городов */
+        .forum-title {
+            color: #003366;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        /* Новые кнопки с городами */
+        .city-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .city-button {
+            display: inline-block;
+            width: 140px;
+            padding: 10px;
+            margin: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background: #003366;
+            border-radius: 15px;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .city-button:hover {
+            background: #0055aa;
+        }
     </style>
 </head>
 <body>
@@ -88,11 +125,25 @@
     <h2>Хто, як не ми? Коли, як не зараз?</h2>
     <p>Щорічний благодійний проєкт, який об'єднує людей заради Добрих Справ.</p>
     
-    <a href="https://forms.gle/EgSbCTKVYLpPznLUA" class="link" style="animation-delay: 0.2s;">Реєстрація на проєкт</a>
-    <a href="#" class="link" style="animation-delay: 0.4s;">Сайт</a>
-    <a href="https://www.instagram.com/weeksforcharity.ua?igsh=MWg2bno4ejJ5NzFvbQ==" class="link" style="animation-delay: 0.6s;">Instagram</a>
-    <a href="#" class="link" style="animation-delay: 0.7s;">Facebook</a>
-    <a href="https://t.me/annushhkaaaa" class="link" style="animation-delay: 0.8s;">Комунікація з менеджером</a>
-    <a href="https://youtube.com/@weeksforcharity?si=ZJx5XL6__2s_ibn4" class="link" style="animation-delay: 1.0s;">YouTube</a>
+    <a href="program.pdf" class="link" style="animation-delay: 0.1s;">
+        <i class="fa-solid fa-users"></i> Програма
+    </a>
+    <a href="https://forms.gle/Rp1JBbahFdKNh3Z46" class="link" style="animation-delay: 0.2s;">
+        <i class="fa-solid fa-clipboard-check"></i> Зареєструвати свій захід
+    </a>
+    <a href="https://www.instagram.com/weeksforcharity.ua?igsh=MWg2bno4ejJ5NzFvbQ==" class="link" style="animation-delay: 0.6s;">
+        <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.facebook.com/share/1ANeuRjz1m/?mibextid=wwXIfr" class="link" style="animation-delay: 0.7s;">
+        <i class="fa-brands fa-facebook"></i> Facebook
+    </a>
+    <a href="https://t.me/weeksforcharity" class="link" style="animation-delay: 0.9s;">
+        <i class="fa-brands fa-telegram"></i> Telegram-канал
+    </a>
+    <a href="https://t.me/annushhkaaaa" class="link" style="animation-delay: 0.8s;">
+        <i class="fa-brands fa-telegram"></i> Комунікація з менеджером
+    </a>
+
+
 </body>
 </html>
